@@ -1,0 +1,47 @@
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
+
+body {
+  font-family: "Silkscreen", sans-serif;
+  text-align: center;
+  background: radial-gradient(circle, #1a1a1a, #000000);
+  color: aliceblue;
+}
+
+.text-box h3 {
+  font-size: 22px;
+  margin: 0 auto;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.text-box {
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.container {
+  padding-top: 250px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
